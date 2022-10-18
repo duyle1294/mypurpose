@@ -1,0 +1,36 @@
+#wrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: #ddd;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper .container {
+    padding: 2.5rem 3rem;
+    background-color: #f9f9f9;
+    border-radius: 1rem;
+    width: 24rem;
+    box-shadow: var(--neushadow)
+}
+
+#wrapper .login {
+    margin: 1rem 0;
+}
+
+#wrapper input {
+    width: 100%;
+    margin: .5rem 0 1rem;
+}
+
+#wrapper #remember {
+    display: inline-block;
+    width: 1.5rem;
+}

@@ -1,38 +1,125 @@
-.App {
-  text-align: center;
+.bg-btn {
+    display: inline-block;
+    background: var(--main-color);
+    color: #fff;
+    font-size: 1rem;
+    box-shadow: var(--neushadow);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-btn:hover{
+    background: #fff;
+    color: var(--main-color);
+    border: .1rem solid #ddd;
+    font-weight: 500;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.delete-btn {
+    background: var(--bg-color);
+    color: var(--text-color);
+    border: 1px solid var(--placeholder);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.create-btn{
+    background: #06be57;
+    font-size: 1rem;
+    border: none;
+    color: #fff;
+    height: 2.7rem;
 }
 
-.App-link {
-  color: #61dafb;
+#save-btn {
+    margin-top: 3rem;
+    font-size: 1.2rem;
+    width: 9rem;
+    box-shadow: var(--neushadow);
+    border: .1rem solid #ddd;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.wrapper{
+    display: flex;
 }
+
+.wrapper .nav-head-title{
+    background: #fff;
+    position: absolute;
+    top: 0; left: 40%;
+    width: 20rem;
+    height: 3.3rem;
+    z-index: 100;
+    text-align: center;
+    line-height: 3.3rem;
+
+}
+
+.wrapper .slide-bar{
+    width: 240px;
+    height: 100vh;
+    background: #000;
+}
+
+.wrapper .content{
+    padding: 3rem;
+}
+
+
+.content {
+    background: var(--bg-color);
+    padding: 4.5rem 9rem;
+    min-height: 93vh;
+    width: 100%;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading .search {
+    display: flex;
+    width: 39rem;
+}
+
+.heading .search input{
+    background: #fafafa;
+}
+
+.heading .search button{
+    height: 39px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(3, 3, 3, 0.9);
+    width: 100vw;
+    height: 100vh;
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal .hide{
+    display: none;
+}
+
+.modal .container {
+    padding: 2.5rem 3rem;
+    background-color: #f9f9f9;
+    border-radius: 1rem;
+    width: 24rem;
+    box-shadow: var(--neumodal)
+}
+
+.modal .input-box {
+    margin: 1rem 0 2rem;
+}
+
+.modal .input-box input {
+    margin: .5rem 0 1rem
+}
+

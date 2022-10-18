@@ -1,0 +1,66 @@
+.courses-list{
+    margin-top: 2rem;
+}
+
+.course-box{
+    padding: 1.5rem;
+    background-color: #f9f9f9;
+    border-radius: 1rem;
+    box-shadow: var(--neushadow);
+    margin-bottom: 1rem;
+    width: 45rem;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+}
+
+.delete{
+    font-size: 2rem;
+    color: var(--placeholder);
+    cursor: pointer;
+}
+
+.delete:hover{
+    color: var(--main-color);
+}
+
+.course-box input{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--main-color);
+}
+
+.select-works{
+    margin-top: 1rem;
+}
+
+.select-works .work{
+    display: flex;
+    margin: 1rem 0;
+}
+
+.select-works .work span{
+    width: 4rem;
+    line-height: 2.5rem;
+    color: var(--placeholder);
+}
+
+.select-option{
+    position: relative;
+    padding: .3rem 1.5rem;
+    border: .1rem solid var(--placeholder);
+    border-radius: 1rem;
+    box-shadow: var(--neushadow);
+    width: 83%;
+    line-height: 2rem;
+    margin-right: 1.2rem;
+}
+
+.select-option svg{
+    position: absolute;
+    top: 0;
+    right: 1rem;
+    font-size: 1.8rem;
+}

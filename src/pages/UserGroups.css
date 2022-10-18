@@ -1,0 +1,12 @@
+.group-list{
+    margin-top: 2rem;
+    width: 30rem;
+}
+
+.title {
+    margin-top: 1rem;
+}
+
+.group-list input{
+    background: #fff;
+}

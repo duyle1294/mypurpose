@@ -1,0 +1,94 @@
+.work-list {
+    margin-top: 2rem;
+}
+
+.work-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background-color: #f9f9f9;
+    gap: 2rem;
+    border-radius: 1rem;
+    box-shadow: var(--neushadow);
+    margin-bottom: 1rem;
+}
+
+.work-box .bg-btn{
+    font-size: .9rem;
+}
+
+.control {
+    height: 6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.thumbnail {
+    width: 12rem;
+    height: 6rem;
+    background: #999;
+    border-radius: .6rem;
+}
+
+.thumbnail img {
+    width: 12rem;
+    height: 6rem;
+    border-radius: .6rem;
+    object-fit: cover;
+    border: .1rem solid var(--placeholder);
+}
+
+.work-box table {
+    margin-top: 0;
+    background: transparent;
+    border-radius: none;
+    border-collapse: collapse;
+    box-shadow: none;
+}
+
+.work-box th {
+    background: transparent;
+    padding: 0 .3rem;
+    color: var(--placeholder);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    height: 1rem;
+}
+
+.work-box th:first-child {
+    padding-left: 0;
+}
+
+.work-box td {
+    background: transparent;
+    padding: 0 .3rem;
+    color: var(--text-color);
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    max-width: 18rem;
+    vertical-align: top;
+}
+
+.work-box td:first-child {
+    padding-left: 0;
+}
+
+.work-box .clip-text{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+    font-size: .9rem;
+}
+
+.work-box .name {
+    color: var(--main-color);
+    min-width: 9rem;
+    font-weight: 600;
+}

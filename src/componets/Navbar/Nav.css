@@ -1,0 +1,118 @@
+nav {
+    background: #fff;
+    padding: .5rem 3%;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+}
+
+.site-title span{
+    color: var(--main-color);
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.nav a {
+    display: block;
+    text-decoration: none;
+    color: var(--placeholder);
+    padding: 0.1rem 0.6rem; 
+    transition: all ease-in-out .3s;
+}
+
+.nav li.active svg{
+    color: var(--main-color);
+}
+
+
+.nav li.active a{
+    color: var(--main-color);
+    border-bottom: 2px solid var(--main-color);
+    transition: all ease-in-out .3s;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.nav li:hover svg,
+.nav li:hover a{
+    color: var(--main-color);
+}
+
+.nav svg{
+    color: var(--placeholder);
+    margin-right: .5rem;
+    transform: translateY(.15rem);
+}
+
+.slide-nav{
+    width: 300px;
+    height: 100vh;
+    background: #fff;
+}
+
+.slide-nav ul{
+    padding: 3rem 1.5rem 3rem 0;
+}
+
+.slide-nav li{
+    margin-bottom: .5rem;
+    position: relative;
+}
+
+.slide-nav svg{
+    margin: 0 1rem;
+    transform: translateY(.15rem);
+}
+
+.slide-nav a {
+    font-size: 1rem;
+    display: block;
+    text-decoration: none;
+    color: var(--placeholder);
+    padding: 0.1rem 0.6rem; 
+    transition: all ease-in-out .3s;
+    padding: .6rem .3rem;
+    border-radius: 0 3rem 3rem 0;
+}
+
+.slide-nav li.active a{
+    color: var(--main-color);
+    background: #fff;
+    transition: all ease-in-out .3s;
+    font-weight: 600;
+    box-shadow: var(--neushadow);
+    background: var(--sub-color);
+}
+
+.slide-nav li:hover a{
+    color: var(--text-color);
+}
+
+.slide-nav li.active::after{
+    content: '';
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    bottom: 0rem;
+    width: .5rem;
+    background: var(--main-color);
+}
+
+.slide-nav .out{
+    background: #f3f3f3;
+    color: #db3300;
+    width: 80%;
+    border-radius: 1rem;
+    margin-left: 1.25rem;
+    border: 1px solid var(--placeholder);
+}
