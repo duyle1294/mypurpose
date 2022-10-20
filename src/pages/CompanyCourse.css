@@ -1,0 +1,72 @@
+
+.course-group{
+    margin-top: 2rem;
+}
+
+.course-group h5{
+    font-size: 1.3rem;
+    border-bottom: .1rem solid var(--placeholder);
+    padding: .3rem;
+}
+
+.course-name {
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+
+.course {
+    margin-top: 2rem;
+}
+
+.course-name .tag{
+    padding: .3rem .6rem;
+    background: var(--main-color);
+    color: #fff;
+    border-radius: .5rem;
+    font-size: 1rem;
+}
+
+.course h5{
+    font-size: 1.5rem;
+}
+
+.course p {
+    margin-left: 3.9rem;
+    font-size: 1.2rem;
+}
+
+.course p span {
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.work{
+    display: flex;
+    margin-top: 2rem;
+    align-items: flex-end;
+    gap: 1rem;
+}
+
+.work .thumbnail,
+.work .thumbnail img{
+    height: 9rem;
+}
+
+.work h5{
+    font-size: 1.3rem;
+}
+
+.work p{
+    margin-bottom: .5rem;
+}
+
+.work p span {
+    color: var(--main-color);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+table button svg{
+    margin-left: .5rem;
+}

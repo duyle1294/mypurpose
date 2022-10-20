@@ -1,0 +1,57 @@
+h4 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.input-box .select-option{
+    width: 18rem;
+    background: #fff;
+    /* position: relative; */
+}
+
+.input-box  .line {
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0;
+}
+
+
+.input-box  .line p{
+    width: 9rem;
+}
+
+.controller button{
+    margin-right: 1rem;
+    height: 3rem;
+    width: 13rem;
+    margin-top: 2rem;
+    font-size: 1rem;
+}
+
+.select-option ul{
+    position: absolute;
+    background: #fff;
+    text-align: left;
+    width: 100%;
+    left: 0;
+    top: 103%;
+    border: .1rem solid var(--placeholder);
+    border-radius:1rem;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.15);
+}
+
+.select-option ul li {
+    padding: .3rem 1.5rem;
+    border-bottom: 1px solid var(--sub-color);
+}
+
+.select-option ul li:last-child{
+    border: none;
+}
+
+.select-option ul li:hover{
+    background: var(--sub-color);
+    border-radius: .8rem;
+    color: var(--main-color);
+    font-weight: 500;
+}

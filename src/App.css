@@ -9,7 +9,6 @@
 .bg-btn:hover{
     background: #fff;
     color: var(--main-color);
-    border: .1rem solid #ddd;
     font-weight: 500;
 }
 
@@ -25,6 +24,12 @@
     border: none;
     color: #fff;
     height: 2.7rem;
+    border: .1rem solid #06be57;
+}
+
+.create-btn:hover{
+    background: #fff;
+    color: #06be57;
 }
 
 #save-btn {
@@ -32,7 +37,6 @@
     font-size: 1.2rem;
     width: 9rem;
     box-shadow: var(--neushadow);
-    border: .1rem solid #ddd;
 }
 
 .wrapper{
@@ -121,5 +125,11 @@
 
 .modal .input-box input {
     margin: .5rem 0 1rem
+}
+
+.modal .container button{
+    min-width: 7.7rem;
+    font-size: 1.1rem;
+    margin: 0 .5rem;
 }
 

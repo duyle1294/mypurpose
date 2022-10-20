@@ -116,3 +116,10 @@ nav {
     margin-left: 1.25rem;
     border: 1px solid var(--placeholder);
 }
+
+.wrapper .nav-head-title.type-2{
+    width: 80%;
+    left: 0;
+    text-align: left;
+    padding-left: 1rem;
+}

@@ -11,6 +11,13 @@ import SetCourse from "./pages/SetCourse"
 
 import Navbar from "./componets/Navbar/Navbar";
 import UserGroups from "./pages/UserGroups"
+import CompanyAdmin from "./pages/CompanyAdmin"
+import CompanyWorkers from "./pages/CompanyWorkers"
+import CompanyCourses from "./pages/CompanyCourses"
+import CourseDetail from "./pages/CourseDetail"
+import WorkDetail from "./pages/WorkDetail"
+import WorkerDetail from "./pages/WorkerDetail"
+
 
 
 function App() {
@@ -28,6 +35,12 @@ function App() {
           <Route path="/courses" element={<Course />} />
           <Route path="/group_courses" element={<SetCourse />} />
           <Route path="/groups" element={<UserGroups />} />
+          <Route path="company_admin" element={<CompanyAdmin />} />
+          <Route path="/company_admin/workers" element={<CompanyWorkers />} />
+          <Route path="/company_admin/workers/worker" element={<WorkerDetail />} />
+          <Route path="/company_admin/courses" element={<CompanyCourses />} />
+          <Route path="/company_admin/courses/course" element={<CourseDetail />} />
+          <Route path="/company_admin/courses/course/work" element={<WorkDetail />} />
         </Routes>
       </div>
     </>
